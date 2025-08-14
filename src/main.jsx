@@ -7,6 +7,7 @@ import './index.css'
 
 function App() {
   return (
+    <>
     <div style={{ maxWidth: 960, margin: '0 auto', padding: 16, fontFamily: 'system-ui, Arial' }}>
       <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
         <h1 style={{ fontSize: 24, margin: 0 }}>Leitor de QR Code</h1>
@@ -23,6 +24,7 @@ function App() {
         Feito com React + ZXing
       </footer>
     </div>
+    </>
   )
 }
 

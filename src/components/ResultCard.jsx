@@ -5,6 +5,7 @@ export default function ResultCard({ result }) {
   const isURL = /^https?:\/\//i.test(result.text)
 
   return (
+    <>
     <section style={{ marginTop: 16 }}>
       <h3>Resultado</h3>
       <div style={{ padding: 12, border: '1px solid #ddd', borderRadius: 8, background: '#fafafa' }}>
@@ -21,5 +22,6 @@ export default function ResultCard({ result }) {
         </div>
       </div>
     </section>
+    </>
   )
 }

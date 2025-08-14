@@ -90,6 +90,7 @@ export default function QRScanner({ deviceId, isScanning, onStart, onStop, onRes
   }, [isScanning, start, stop])
 
   return (
+    <>
     <section>
       <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginBottom: 8 }}>
         {!isScanning ? (
@@ -117,5 +118,6 @@ export default function QRScanner({ deviceId, isScanning, onStart, onStop, onRes
         }} />
       </div>
     </section>
+    </>
   )
 }
